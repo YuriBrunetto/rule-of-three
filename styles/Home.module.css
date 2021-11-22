@@ -39,7 +39,7 @@
 }
 
 .description {
-  margin: 1rem 0;
+  margin: 8px 0;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.67);
 }
@@ -51,6 +51,13 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.calculate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
 }
 
 .rowTitle {
@@ -91,4 +98,10 @@
 .calculateBtn:hover {
   box-shadow: 0 3px 16px rgba(0, 0, 0, 0.22);
   transition: box-shadow 0.3s;
+}
+
+.result {
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
 }

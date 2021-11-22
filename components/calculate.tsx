@@ -18,7 +18,7 @@ const Calculate: React.FC<ICalculate> = ({
   result,
   calculateRuleOfThree,
 }) => (
-  <>
+  <div className={styles.calculate}>
     <div className={styles.row}>
       <input
         type='number'
@@ -42,8 +42,8 @@ const Calculate: React.FC<ICalculate> = ({
       Calcular
     </button>
 
-    <p className='result'>{result}</p>
-  </>
+    <p className={styles.result}>{result.toFixed(2)}%</p>
+  </div>
 )
 
 export default Calculate
