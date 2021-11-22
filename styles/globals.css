@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+input {
+  appearance: none;
+  border: 0;
+  outline: 0;
+}
